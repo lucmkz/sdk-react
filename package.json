@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/sdk-react"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "POC sdk-react - Mercado Pago",
   "scripts": {
     "rollup": "rollup -c",

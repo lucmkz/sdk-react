@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import "./Button.scss";
 
 
-const CardForm = () => {
+const CardForm = ({option} : {option: 'string'}) => {
+  console.log('option', option)
   useEffect(() => {
     const script = document.createElement("script");
 
