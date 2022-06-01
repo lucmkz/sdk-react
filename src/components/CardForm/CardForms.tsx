@@ -1,11 +1,8 @@
 import React, { useEffect } from "react";
 import "./Button.scss";
 
-export interface ButtonProps {
-  label: string;
-}
 
-const Button = (props: ButtonProps) => {
+const CardForm = () => {
   useEffect(() => {
     const script = document.createElement("script");
 
@@ -148,4 +145,4 @@ const Button = (props: ButtonProps) => {
   );
 };
 
-export default Button;
+export default CardForm;
